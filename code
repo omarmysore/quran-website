@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quran Tutoring by [Your Name]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #00796b;
+            color: #fff;
+            padding: 20px 10%;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #004d40;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px 10%;
+        }
+        .about, .services, .contact {
+            background-color: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #00796b;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Quran Tutoring by [Your Name]</h1>
+        <p>Helping students connect with the Quran through personalized learning.</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>As someone who has memorized the Quran, I am passionate about sharing my knowledge and helping others on their journey of learning. I offer personalized tutoring sessions that cater to each student’s level, whether they are just starting or looking to refine their skills. My approach emphasizes proper recitation (Tajweed), memorization techniques, and fostering a deeper understanding of the Quran.</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Services</h2>
+        <ul>
+            <li><strong>Quran Recitation:</strong> Learn to recite the Quran with proper Tajweed rules.</li>
+            <li><strong>Memorization:</strong> Step-by-step guidance to memorize surahs or the entire Quran.</li>
+            <li><strong>Understanding:</strong> Basic tafsir to help students grasp the meaning of the verses.</li>
+            <li><strong>Flexible Scheduling:</strong> Sessions tailored to fit your availability and goals.</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Ready to start your Quran learning journey? Get in touch today!</p>
+        <form action="" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Quran Tutoring by [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
